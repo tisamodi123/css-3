@@ -1,0 +1,83 @@
+.main{
+    width: 1000px;
+    height: 450px;
+    font-size: 10px;
+    background-color: lightcoral;
+    border: 4px solid red;
+    font-family: 'Courier New', Courier, monospace;
+}
+/* 1em=16px if you give row1 fontsize:2em it means 32px but em is base on there prenent here present is main 
+if i give there font-size:10px then row1 em value is count 1em=10px its depend on mainprenent */
+.row1{
+    width: 1000px;
+    height: 70px;
+    font-size: 4em;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    background-color: lightsalmon;
+    text-transform: lowercase;
+    word-spacing: 25px;
+    letter-spacing: 5px;
+    padding-top: 30px;
+}
+.row2{
+    width: 1000px;
+    height: 40px;
+    background-color: yellowgreen;
+    font-size: 1rem; 
+    color: black;
+}
+.row2c1{
+    /* 200 to 196 bcz of border
+    40 to 36 bcz of border */ 
+    width: 196px; 
+    height: 26px; 
+    float: left;
+    color: black;
+    border: 2px solid blue;
+    padding-top: 10px;
+    text-align: center;
+    /* border is based on website means width =left,right and height=top,bottom */
+}
+.row3{
+    width: 1000px;
+    height: 200px;
+    background-color: lightskyblue;
+    font-size: 1em;
+    color: black;
+}
+.row3left{
+    width: 250px;
+    height: 200px;
+    float: left;
+    background-color: pink;
+}
+.row3leftr{
+    width: 250px;
+    height: 40px;
+}
+.row3right{
+    width: 725px;
+    height: 200px;
+    float: left;
+    border-left: 5px solid darkmagenta;
+    background-color: plum;
+    margin-left: 20px;
+    /* margin:top right bottom left and also you want give same margin then it's consider margin:top-botton and right-left this is two ways */
+
+    /* padding:top right bottom left and also you want give same padding then it's consider padding:top-botton and right-left this is two ways */
+}
+.row4{
+    width: 1000px;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+}
+.row5{
+    width: 330px;
+    height: 70px;
+    /* background property is used for both color and image and background-image is just for image and background-color is just for color; */
+}

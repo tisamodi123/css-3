@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.project-section{
+    width: 100%;
+    height: 500px;
+    background: #f7f2ec;
+}
+.project-section-mid{
+    width: 1320px;
+    margin: auto;
+}
+
+.flexExample{
+    width: 1320px;
+    margin: auto;
+    display: flex; 
+    /* flex-wrap means woh child ko permission denga aapko jitni width deni ho itni de sakte hai */
+    flex-wrap: wrap;
+}
+.flexItems{
+    background-color: yellow;
+    color: red;
+    /* this width child */
+    width: 500px; 
+    text-align: center;
+    margin: 5px;
+
+}

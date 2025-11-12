@@ -1,0 +1,13 @@
+.h1{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    /* text-shadow: -10px 5px 5px blue; */
+    /* x,y,blur,color */
+    box-shadow: 0px 0px 10px 2px blue,inset 0px 0px 10px 2px blue;
+    /* x,y,blur,alldirection,color agar andar ni side shadow joiye toh inset*/
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    /* margin auto dene se sara contact bitch mein aa jata hai most imp */
+}

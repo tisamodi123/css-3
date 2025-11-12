@@ -1,0 +1,19 @@
+.one {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    /* transition: background-color 3s,width 2s; */
+    /* transition: linear 3s 2s; */
+    /* transition: timing-function duration delay; */
+    /* transition: ease 3s 0s; */
+    /* transition: ease-in 3s 0s; */
+    /* transition: ease-out 3s 0s; */
+    /* transition: ease-in-out 3s 0s; */
+    
+}
+
+.one:hover {
+    background-color: blue;
+    width: 500px;
+    height: 500px;
+}

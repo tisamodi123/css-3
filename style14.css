@@ -1,0 +1,29 @@
+.one{
+   column-count: 3; 
+   column-gap: 100px;
+   column-rule: 2px solid red;
+   column-width: 100px;
+}
+.pagination{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.pagination ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.pagination ul li{
+    padding: 10px;
+    margin: 0px 10px;
+    border-radius: 5px;
+    background-color: aliceblue;
+    box-shadow: 2px 2px 5px gray;
+    transition: 150ms linear;
+}
+.pagination ul li:hover{
+    background-color: dodgerblue;
+    color: white;
+    box-shadow: 0px 0px 0px transparent;
+}

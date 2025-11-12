@@ -1,0 +1,9 @@
+.one{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    transition: all 2s;
+}
+.one:hover{
+    transform:rotateX(360deg);
+}
